@@ -75,51 +75,7 @@ button{
   }
   
   .footer a {
-    color: #a30939;
+    color: #000000;
   }
 
-  .container1{
-    max-width: 1300px;
-    margin: 0 auto;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  ul {
-    list-style: none;
-  }
-  header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: var(--lighting-color);
-  }
   
-  section {
-    scroll-margin-top: 50px;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-  }
-  nav ul {
-    display: flex;
-    gap: 1.5rem;
-  }
-  nav li {
-    font-size: 1.8rem;
-    border-bottom: 0.4rem transparent solid;
-    transition: 0.3s ease-in-out;
-  }
-  nav li:hover {
-    border-bottom: 0.4rem var(--secondary-color) solid;
-    transition: 0.3s ease-in-out;
-  }
-  .logo {
-    font-size: 2rem;
-    font-weight: 700;
-  }
