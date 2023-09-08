@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Marriage Date Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1><strong>Marriage Date Calculator</strong></h1>
+        <div class="Love-Calculator">
+            <form id="marriageCalculator">
+                <label for="yourName"><strong>Your Name</strong></label>
+                <input type="text" id="yourName" placeholder="Enter Your Name" required><br>
+
+                <label for="partnerName"><strong>Partner's Name</strong></label>
+                <input type="text" id="partnerName" placeholder="Enter Your Partner Name" required><br>
+
+                <label for="yourDOB"><strong>Your Date of Birth</strong></label>
+                <input type="date" id="yourDOB" required><br>
+
+                <label for="relationshipTime"><strong>Relationship Time (in years)</strong></label>
+                <input type="number" id="relationshipTime" placeholder="Mention here " required><br>
+
+                <button type="button" onclick="calculateMarriageDate()"><strong>Calculate</strong></button>
+            </form>
+
+            <div id="result"></div>
+            <div class="footer">
+                Designed by <a><strong>Amar Verma</strong></a>
+            </div>
+        </div>
+    </div>
+    <script src="validation.js"></script>
+
+</body>
+
+</html>

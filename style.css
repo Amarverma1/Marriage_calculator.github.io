@@ -1,0 +1,125 @@
+body{
+    background-image: url(image.png);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}   
+.container{
+    width: 500px;
+    background-image: url(pexels-pixabay-414660\ \(2\).jpg);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0.2);
+    text-align: center;
+    border: 2px solid #de4747;
+
+}
+h1{
+    color: #000000;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+    color: #ff85c0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Love-Calculator{
+    margin-top: 20px;
+
+}
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom:10px;
+    color: #980505;
+}
+input[type = "text"]{
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    color: #1905ae;
+    text-transform: capitalize strong;
+
+}
+button{
+    background-color: #0edfdc;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#result
+{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #03050f;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.footer {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #1018c0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .footer a {
+    color: #a30939;
+  }
+
+  .container1{
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  ul {
+    list-style: none;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--lighting-color);
+  }
+  
+  section {
+    scroll-margin-top: 50px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  nav ul {
+    display: flex;
+    gap: 1.5rem;
+  }
+  nav li {
+    font-size: 1.8rem;
+    border-bottom: 0.4rem transparent solid;
+    transition: 0.3s ease-in-out;
+  }
+  nav li:hover {
+    border-bottom: 0.4rem var(--secondary-color) solid;
+    transition: 0.3s ease-in-out;
+  }
+  .logo {
+    font-size: 2rem;
+    font-weight: 700;
+  }
